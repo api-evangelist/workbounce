@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of workbounce.com well-known paths
+note: Every path on workbounce.com returns HTTP 402 with x-vercel-error
+  DEPLOYMENT_DISABLED - the Vercel deployment behind the domain has been
+  disabled and no well-known documents are served. Wayback Machine snapshots
+  from 2024-03-05 show these same paths returned 404 while the site was
+  still live, so no well-known surface ever existed.
+host: workbounce.com
+paths:
+- path: /.well-known/security.txt
+  status: 402
+  file: null
+- path: /.well-known/openid-configuration
+  status: 402
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 402
+  file: null
+- path: /.well-known/api-catalog
+  status: 402
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 402
+  file: null
+- path: /llms.txt
+  status: 402
+  file: null
+- path: /robots.txt
+  status: 402
+  file: null

@@ -1,8 +1,24 @@
 aid: workbounce
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workbounce.png
 name: Workbounce
-description: 'Workbounce is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Workbounce was an AI-powered revenue and sales enablement platform that
+  gave sales reps instant answers to deal-blocking questions by connecting company
+  documents and knowledge to AI-powered search, delivered through a Slack bot and
+  Chrome extension. Co-founded by Adam Smith and Rowan Bailey and backed by Index
+  Ventures. As of July 2026 workbounce.com returns HTTP 402 (Vercel DEPLOYMENT_DISABLED)
+  and the company appears defunct; no public API, developer docs, SDKs, or packages
+  were ever published.'
 url: https://raw.githubusercontent.com/api-evangelist/workbounce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,26 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: workbounce.com returns HTTP 402 with x-vercel-error DEPLOYMENT_DISABLED
+  (probed 2026-07-21); GitHub org Workbounce has 0 public repos; last Wayback snapshot
+  of a live site 2025-02.
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Business Applications
+- Sales Enablement
+- Revenue Enablement
+- Artificial Intelligence
+- Slack
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/workbounce-domain-security.yml
+- type: WellKnown
+  url: well-known/workbounce-well-known.yml
+- type: LLMsTxt
+  url: llms/workbounce-llms.txt
 - type: Website
   url: http://workbounce.com
+- type: GitHubOrganization
+  url: https://github.com/Workbounce

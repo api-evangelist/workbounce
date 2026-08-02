@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: workbounce.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 23 03:57:06 2026 GMT
+  hsts: max-age=63072000
+  note: site returns HTTP 402 DEPLOYMENT_DISABLED (Vercel deployment disabled);
+    HSTS header observed on the 402 response 2026-07-21
+domains:
+- domain: workbounce.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

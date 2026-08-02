@@ -1,0 +1,27 @@
+# Workbounce
+
+> Workbounce was an AI-powered revenue/sales enablement platform ("Modern
+> Revenue Enablement - Powered by AI") that gave sales reps instant answers
+> to deal-blocking questions by connecting company documents and resources
+> to AI-powered search, delivered through a Slack bot and a Chrome
+> extension. Co-founded by Adam Smith and Rowan Bailey and backed by Index
+> Ventures. As of 2026-07-21 workbounce.com returns HTTP 402
+> (DEPLOYMENT_DISABLED - Vercel deployment disabled) and the company
+> appears to be defunct; no public API, developer documentation, SDKs, or
+> packages were ever published.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live
+probes + Wayback Machine snapshot 2023-12-10 (no /llms.txt was ever
+published by the provider; site now offline) -->
+
+## Company
+
+- [Website (offline, HTTP 402)](https://workbounce.com): former homepage
+- [Archived homepage (2023-12-10)](https://web.archive.org/web/20231210203936/https://workbounce.com/): product overview
+- [GitHub organization (0 public repos)](https://github.com/Workbounce)
+
+## API surface
+
+No public API, developer portal, OpenAPI, or client packages exist for
+this provider. npm, PyPI, RubyGems, and crates.io have no workbounce
+packages, and the GitHub organization has no public repositories.
